@@ -30,12 +30,13 @@
 
   export default {
 
+
     computed:{
       ...mapState(['tagLists']),
 
       tagListsFliter(){
         let arr=[]
-        for (var i =0;i <4;i++){
+        for (let i =0;i <4;i++){
           arr.push(this.tagLists[i])
         }
         return arr

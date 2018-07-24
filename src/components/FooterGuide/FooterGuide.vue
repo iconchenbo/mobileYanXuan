@@ -16,7 +16,7 @@
       <i class="iconfont icon-shopcart" :class="{on: '/shopcart'===$route.path}"></i>
       <span class="text">购物车</span>
     </span>
-    <span class="guide_item" :class="{on: '/personal'===$route.path}" @click="goTo('/personal')">
+    <span class="guide_item" :class="{on: '/personal'===$route.path}" @click="goTo('/login')">
       <i class="iconfont icon-personal" :class="{on: '/personal'===$route.path}"></i>
       <span class="text">个人</span>
     </span>

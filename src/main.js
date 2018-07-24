@@ -7,6 +7,7 @@ import router from './router'
 import store from './store'
 
 import './mock/mockServer'  //引入即可
+import './filters'
 
 
 new Vue({

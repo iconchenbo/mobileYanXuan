@@ -33,7 +33,7 @@
     top 0
     width 100%
     height (87/$rem)
-    z-index 2
+    z-index 12
     .top-bar
       background-color #fafafa
       height 100%
