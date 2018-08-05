@@ -23,8 +23,15 @@
 <script>
   import BScroll from 'better-scroll'
   import {mapState,mapActions} from 'vuex'
+  import PubSub from 'pubsub-js'
 
   export default {
+
+    data(){
+      return{
+        currentIndex:0
+      }
+    },
 
    computed:{
      ...mapState(['headCates'])
@@ -32,7 +39,8 @@
 
    methods:{
      ...mapActions(['getHeadCateList'])
-   } ,
+
+   },
 
 
 

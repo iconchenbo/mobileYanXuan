@@ -30,7 +30,6 @@
       index:Number,
       categorys:Array
     }
-
   }
 </script>
 
